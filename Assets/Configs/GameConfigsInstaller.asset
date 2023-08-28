@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402d10e53c5c7dd4f8cd31781bca7f62, type: 3}
+  m_Name: GameConfigsInstaller
+  m_EditorClassIdentifier: 
+  player:
+    runStateSettings:
+      speed: 2
+      stepSize: 1
+      maxRight: 1
+      maxLeft: -1
+  dimensions:
+    prismaglass:
+      levelPlayTime: 10
+      startSpeed: 5
+      countShards: 0
+      countAddSpeed: 0
+      delayStartSpawn: 3
+      timeSpawn: 0.2
+      dimensionsPrefab: {fileID: 1148818694107756062, guid: 652feda1734bbb640a3f33685b90e7c3, type: 3}
+      coinPrefab: {fileID: 5489435786027451221, guid: ad68b513f551321448b9927030322c11, type: 3}
+      obstaclesPrefab: {fileID: 0}
